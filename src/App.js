@@ -1,10 +1,22 @@
 import React from "react";
+import './App.css'
+import AddTransaction from "./Components/AddTransaction";
+import Balance from "./Components/Balance";
+import Header from "./Components/Header";
+import IncomeExpenses from "./Components/IncomeExpenses";
+import TransactionList from "./Components/TransactionList";
+
 
 function App() {
   return (
-    <div className="App">
-          Welcome to money miser
-          it is website to manage your expenses
+    <div>
+       <Header/>
+       <div className="container">
+        <Balance/>
+        <IncomeExpenses/>
+        <TransactionList/>
+        <AddTransaction/>
+       </div>
     </div>
   );
 }
