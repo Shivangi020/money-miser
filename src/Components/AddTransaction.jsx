@@ -34,7 +34,7 @@ function AddTransaction() {
         </div>
 
         <div className='form-control'>
-          <label htmlFor='mode' className='mode'>Payment Mode</label><br/>
+          <label htmlFor='mode' className='mode'>Payment Mode<br/> (default payment mode is Cash)</label><br/>
           <input type='radio' name='mode' htmlFor='cash' value='Cash' onChange={(e)=>setMode(e.target.value)}></input>
           <label id='cash'>Cash</label>
           <input type='radio' name='mode' htmlFor='online'  value="Online" onChange={(e)=>setMode(e.target.value)}></input>
