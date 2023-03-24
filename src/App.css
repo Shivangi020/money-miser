@@ -58,6 +58,13 @@ h4 {
   border-right: 1px solid #dedede;
 }
 
+.header{
+  display: flex;
+  margin-top: 10px;
+}
+.money-icon{
+  font-size: 3em;
+}
 .money {
   font-size: 20px;
   letter-spacing: 1px;
