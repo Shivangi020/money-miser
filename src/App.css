@@ -149,3 +149,13 @@ input[type='number'] {
 .list li:hover .delete-btn {
   opacity: 1;
 }
+.mode{
+  margin-bottom: 0;
+}
+
+.payment-mode{
+  color: #9c88ff;
+  font-size: .8em;
+  margin-right: 12px;
+}
+
