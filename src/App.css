@@ -21,9 +21,13 @@ body {
 
 .container {
   margin: 30px auto;
-  width: 350px;
+ 
 }
-
+.container2{
+  display: flex;
+  max-width: 1000px;
+  min-width:500px
+}
 h1 {
   letter-spacing: 1px;
   margin: 0;
@@ -166,3 +170,6 @@ input[type='number'] {
   margin-right: 12px;
 }
 
+.list-cn{
+  margin-right: 50px;
+}

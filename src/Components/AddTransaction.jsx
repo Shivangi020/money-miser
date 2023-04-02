@@ -19,7 +19,7 @@ function AddTransaction() {
    }
 
   return (
-    <>
+    <div className='list-cn'>
         <h3>Add new transaction</h3>
       <form onSubmit={formSubmit}>
         <div className="form-control">
@@ -43,7 +43,7 @@ function AddTransaction() {
 
         <button className="btn" >Add transaction</button>
       </form>
-    </>
+    </div>
   )
 }
 

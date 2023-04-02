@@ -4,8 +4,8 @@ import AppReducer from './AppReducer.js'
 // INITIAL STATE
 const initialState = {
     transactions:[
-          { id: 1, text: 'Flower', amount: -20 ,mode:'Cash'},
-          { id: 2, text: 'Salary', amount: 300 ,mode:'Online' },
+          { id: 1, text: 'Chocolate', amount: -20 ,mode:'Cash'},
+          { id: 2, text: 'Stipend', amount: 300 ,mode:'Online' },
           { id: 3, text: 'Book', amount: -10 ,mode:'Cash' },
           { id: 4, text: 'Camera', amount: -150 ,mode:'Online' },
      

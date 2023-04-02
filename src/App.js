@@ -12,11 +12,13 @@ function App() {
   return (
     <GlobalProvider>
        <Header/>
-       <div className="container">
+       <div className="container" >
         <Balance/>
         <IncomeExpenses/>
-        <TransactionList/>
+        <div className="container2">
         <AddTransaction/>
+        <TransactionList/>
+        </div>
        </div>
     </GlobalProvider>
   );
